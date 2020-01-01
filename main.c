@@ -31,7 +31,7 @@ const int led_gpio = 2;
 const int button_gpio = 4;
 
 // Timeout in seconds to open lock for
-const int unlock_period = 0,5;  // 1 seconds
+const int unlock_period = 0.5;  // 1 seconds
 // Which signal to send to relay to open the lock (0 or 1)
 const int relay_open_signal = 1;
 
